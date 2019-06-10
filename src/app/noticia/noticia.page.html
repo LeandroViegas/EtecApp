@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="wine">
+    <ion-buttons slot="start">
+      <ion-back-button color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light">{{noticia.titulo}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle color="dark">{{noticia.titulo}}</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <img [src]="noticia.img" /><br />
+      <p class="ion-text-justify" [innerHTML]="noticia.descricao_max">
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

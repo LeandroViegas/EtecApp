@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="wine">
+    <ion-title color="light">
+      Notícias
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+  <ion-card *ngFor="let noticia of noticias">
+    <ion-card-header [color]="noticia.color">
+      <ion-card-subtitle class="ion-text-justify ion-padding-horizontal">{{noticia.titulo}}</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <img [src]="noticia.img"  class="imagem ion-padding-top" /><br />
+      <p class="ion-text-justify">
+        {{noticia.descricao_min}}  
+      </p>
+      <ion-button (click)="MostraNoticia(noticia)">
+        Leia Mais
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
