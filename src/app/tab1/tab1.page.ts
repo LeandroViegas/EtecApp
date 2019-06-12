@@ -21,6 +21,15 @@ export class Tab1Page implements OnInit {
       descricao_max: "Saiu publicado no Diário Oficial (29/05/2019, seção I, págs. 174 e 175) o Edital de deferimento e indeferimento de inscrições, de designação da banca examinadora e convocação para entrega do memorial circunstanciado.<br/>Confiram o Edital de Deferimento, para conhecimento da data e horários de entrega do Memorial Circunstanciado, através do Diário Oficial, no mural da Etec e na página de processos seletivos no site da escola.",
       color: "dark"
     },
+
+    {
+      titulo: "Minha história na Etec: Murilo Aranda Baldi (Marketing)",
+      img: "http://www.etecbarrabonita.com.br/wp-content/uploads/2019/05/Murilo-Aranda-Baldi-300x225.jpg",
+      descricao_min: "Olá meu nome é Murilo Aranda Baldi. O marketing foi tão importante na minha vida que eu costumo dizer que, …",
+      descricao_max: "Olá meu nome é Murilo Aranda Baldi.<br/>O marketing foi tão importante na minha vida que eu costumo dizer que, por meio dele, pude desenvolver um lado profissional que eu não conhecia em mim.<br/>Ainda enquanto estava estudando, consegui um emprego de vendedor, e estou nessa área há 5 anos. O curso, aliado à prática, abriu meus olhos para todo um mundo de oportunidades e permitiu o desenvolvimento de qualidades, conhecimentos e técnicas que uso até hoje na minha vida pessoal e profissional.<br/>Na área de marketing, é possível realizar trabalhos no comércio, pensando estratégias e colocando em prática as atividades.<br/>Nos dias de hoje, o marketing é tudo em nossa vida. Temos que saber fazer o nosso próprio marketing, pois assim, cada vez mais as portas se abrirão.",
+      color: "tertiary"
+    },
+
     {
       titulo: "Reabertura das Inscrições e Edital de Alteração do Cronograma de Atividades – Aviso nº 040/03/2019",
       img: "https://ifce.edu.br/tabuleirodonorte/noticias/reaberto-prazo-para-solicitacao-de-auxilio-2/sem-titulo-1.png/@@images/image.png",
@@ -43,6 +52,14 @@ export class Tab1Page implements OnInit {
       descricao_min: "Caros alunos e professores, Referente à parceria Microsoft – Centro Paula Souza, gostaríamos de apresentar as seguintes notas de atualização: …",
       descricao_max: "Caros alunos e professores,<br/>Referente à parceria Microsoft – Centro Paula Souza, gostaríamos de apresentar as seguintes notas de atualização:<br/>Loja de Softwares (softwares gratuitos para alunos e professores)<br/>No começo desse ano, a Microsoft implementou alterações na sua loja de Softwares, o que tem gerado algumas dúvidas no acesso. Esclarecemos que seus benefícios de software gratuitos estão disponíveis no portal Azure Dev Tools for Teaching, no endereço https://azureforeducation.microsoft.com/devtools<br/>Leia o documento 2019 Instruções – Azure Dev Tools for Teaching para saber como acessar o portal e os softwares disponíveis para o seu perfil.<br/>E-mail institucional (alunos e professores)<br/>Nenhuma alteração foi realizada nos acessos referentes aos e-mails já existentes.<br/>Sobre a criação de e-mails novos, informamos que esse processo está ocorrendo automaticamente tanto para alunos (quando realiza a matrícula no curso) quanto para professores (quando são contratados pela instituição de ensino).<br/>Caso não saiba ou tenha esquecido seu e-mail ou sua senha, você pode solicitar a redefinição através do nosso site, na página: http://www.etecbarrabonita.com.br/meuemail<br/>Em caso de dúvidas, entre em contato com a coordenação de TI.",
       color: "dark"
+    },
+
+    {
+      titulo: "Minha história na Etec: Rony Aparecido Piqueira (Informática)",
+      img: "http://www.etecbarrabonita.com.br/wp-content/uploads/2019/05/Rony-300x300.jpg",
+      descricao_min: "Meu nome é Rony, tenho 34 anos, e atuo na área de TI (Tecnologia da Informação) há pouco mais de …",
+      descricao_max: "Meu nome é Rony, tenho 34 anos, e atuo na área de TI (Tecnologia da Informação) há pouco mais de 8 anos. Antes de me aventurar na área de tecnologia, já possuía algumas competências advinda de trabalhos anteriores em empresas do comércio, e obtidos também na área acadêmica com a formação de Técnico em Contabilidade e Bacharel em Administração (ênfase em TI).<br/>O interesse em buscar algo novo aumentava de forma constante, e então, entendi que era necessário desenvolver novos competências, era necessário complementar o conhecimento adquirido na graduação. Por diversas indicações e pelo meu interesse na área de tecnologia, decidi investir no curso Técnico de Informática da ETEC Comendador João Rays.<br/>Com o esforço necessário, a partir de então, consegui grandes conquistas: intercâmbio cultural para estudar Inglês nos Estados Unidos; estágio em uma empresa da área de tecnologia com posterior contratação; e embasamento teórico e prático para iniciação em um mundo novo e cheio de desafios.<br/>Desde então, participei de inúmeros projetos, reuniões, experiências profissionais e novos desafios do conhecimento, adquirindo algumas certificações na área de TI e o título de MBA em Gerenciamento de Projetos. O desafio mais recente novamente está relacionado com a sala de aula, mas agora atuando como professor, e justamente na escola que sou tão grato.<br/>O trabalho feito pela ETEC Comendador João Rays na cidade de Barra Bonita é memorável! Tenho muita gratidão por todos os professores e direção, reconheço nessa unidade todo o interesse no desenvolvimento humano, o qual deve ser premissa de toda instituição de ensino séria, por maior que sejam os desafios enfrentados.",
+      color: "tertiary"
     },
 
     {
@@ -70,28 +87,13 @@ export class Tab1Page implements OnInit {
       color: "tertiary"
     },
 
-    {
-      titulo: "Minha história na Etec: Murilo Aranda Baldi (Marketing)",
-      img: "http://www.etecbarrabonita.com.br/wp-content/uploads/2019/05/Murilo-Aranda-Baldi-300x225.jpg",
-      descricao_min: "Olá meu nome é Murilo Aranda Baldi. O marketing foi tão importante na minha vida que eu costumo dizer que, …",
-      descricao_max: "Olá meu nome é Murilo Aranda Baldi.<br/>O marketing foi tão importante na minha vida que eu costumo dizer que, por meio dele, pude desenvolver um lado profissional que eu não conhecia em mim.<br/>Ainda enquanto estava estudando, consegui um emprego de vendedor, e estou nessa área há 5 anos. O curso, aliado à prática, abriu meus olhos para todo um mundo de oportunidades e permitiu o desenvolvimento de qualidades, conhecimentos e técnicas que uso até hoje na minha vida pessoal e profissional.<br/>Na área de marketing, é possível realizar trabalhos no comércio, pensando estratégias e colocando em prática as atividades.<br/>Nos dias de hoje, o marketing é tudo em nossa vida. Temos que saber fazer o nosso próprio marketing, pois assim, cada vez mais as portas se abrirão.",
-      color: "tertiary"
-    },
 
     {
       titulo: "Processo Seletivo Simplificado de Docentes",
-      img: "http://novo.cress-se.org.br/wp-content/uploads/2017/03/megafone.jpg",
+      img: "http://www.jacundatudodebom.com.br/foto-noticias/2018/11/d01552413a307bc81c9f85949de3.jpg",
       descricao_min: "Estão abertas as inscrições para o Processo Seletivo Simplificado de Docentes, objetivando a formação de cadastro para a contratação temporária …",
       descricao_max: "Estão abertas as inscrições para o Processo Seletivo Simplificado de Docentes, objetivando a formação de cadastro para a contratação temporária de excepcional caráter público, para diversos Componentes Curriculares, no período de 08/05/2019 à 22/05/2019 (exceto aos sábados, domingos, feriados e pontos facultativos) no horário das 08:00 às 11:00, das 14:00 às 16:00 e das 19:00 às 21:00.<br/>Para conhecer as condições para inscrição e as fases do Processo Seletivo, leia os Editais de Abertura:<br/>Edital de Abertura – 040-02-2019<br/>Edital de Abertura – 040-03-2019<br/>Edital de abertura – 040-04-2019<br/>Para mais informações, acesse a página de processos seletivos.",
       color: "dark"
-    },
-
-    {
-      titulo: "Minha história na Etec: Rony Aparecido Piqueira (Informática)",
-      img: "http://novo.cress-se.org.br/wp-content/uploads/2017/03/megafone.jpg",
-      descricao_min: "Meu nome é Rony, tenho 34 anos, e atuo na área de TI (Tecnologia da Informação) há pouco mais de …",
-      descricao_max: "Meu nome é Rony, tenho 34 anos, e atuo na área de TI (Tecnologia da Informação) há pouco mais de 8 anos. Antes de me aventurar na área de tecnologia, já possuía algumas competências advinda de trabalhos anteriores em empresas do comércio, e obtidos também na área acadêmica com a formação de Técnico em Contabilidade e Bacharel em Administração (ênfase em TI).<br/>O interesse em buscar algo novo aumentava de forma constante, e então, entendi que era necessário desenvolver novos competências, era necessário complementar o conhecimento adquirido na graduação. Por diversas indicações e pelo meu interesse na área de tecnologia, decidi investir no curso Técnico de Informática da ETEC Comendador João Rays.<br/>Com o esforço necessário, a partir de então, consegui grandes conquistas: intercâmbio cultural para estudar Inglês nos Estados Unidos; estágio em uma empresa da área de tecnologia com posterior contratação; e embasamento teórico e prático para iniciação em um mundo novo e cheio de desafios.<br/>Desde então, participei de inúmeros projetos, reuniões, experiências profissionais e novos desafios do conhecimento, adquirindo algumas certificações na área de TI e o título de MBA em Gerenciamento de Projetos. O desafio mais recente novamente está relacionado com a sala de aula, mas agora atuando como professor, e justamente na escola que sou tão grato.<br/>O trabalho feito pela ETEC Comendador João Rays na cidade de Barra Bonita é memorável! Tenho muita gratidão por todos os professores e direção, reconheço nessa unidade todo o interesse no desenvolvimento humano, o qual deve ser premissa de toda instituição de ensino séria, por maior que sejam os desafios enfrentados.",
-      color: "tertiary"
     }
   ];
 

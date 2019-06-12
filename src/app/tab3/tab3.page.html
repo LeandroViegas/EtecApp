@@ -7,6 +7,13 @@
 </ion-header>
 
 <ion-content>
+  <ion-card color="dark">
+    <ion-list *ngFor="let forCurso of curso">
+      <ion-list-header routerLink="/medio" color="dark">
+        <ion-label>{{forCurso.nome}}</ion-label>
+      </ion-list-header>
+      </ion-list>
+  </ion-card>
 
   <ion-card color="dark">
     <ion-list>

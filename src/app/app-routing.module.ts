@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'secretariado-aberto', loadChildren: './secretariado-aberto/secretariado-aberto.module#SecretariadoAbertoPageModule' },
   { path: 'marketing-aberto', loadChildren: './marketing-aberto/marketing-aberto.module#MarketingAbertoPageModule' },
   { path: 'dsaberto', loadChildren: './dsaberto/dsaberto.module#DSAbertoPageModule' },
-  { path: 'noticia', loadChildren: './noticia/noticia.module#NoticiaPageModule' }
+  { path: 'noticia', loadChildren: './noticia/noticia.module#NoticiaPageModule' },  { path: 'curso', loadChildren: './curso/curso.module#CursoPageModule' }
+
 
 ];
 @NgModule({
