@@ -6,15 +6,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-card color="dark">
-    <ion-list *ngFor="let forCurso of curso">
-      <ion-list-header routerLink="/medio" color="dark">
-        <ion-label>{{forCurso.nome}}</ion-label>
-      </ion-list-header>
-      </ion-list>
-  </ion-card>
-
+<ion-content color="light">
+  
   <ion-card color="dark">
     <ion-list>
       <ion-list-header routerLink="/medio" color="dark">
@@ -27,6 +20,16 @@
         <ion-label>Em Aberto</ion-label>
       </ion-list-header>
     </ion-list>
+  </ion-card>
+
+  <ion-card padding>
+    <h1 color="dark" class="ion-text-center">Etec Comendador João Rays</h1>
+    <p class="ion-text-justify">R. Ludovico Victorio, 2140 - Vl. Habitacional<br />
+      CEP 17340-000 - Barra Bonita/SP<br />
+      Telefone: (14) 3641-1310<br />
+      Telefone: (14) 3641-5600<br />
+      E-mail: etecbarrabonita@etecbarrabonita.com.br<br />
+      Site: www.etecbarrabonita.com.br</p>
   </ion-card>
 
 </ion-content>

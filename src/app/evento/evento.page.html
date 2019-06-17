@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="wine">
+      <ion-buttons slot="start">
+          <ion-back-button color="light"></ion-back-button>
+        </ion-buttons>
+    <ion-title color="light">
+      {{evento.nome}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle color="dark">{{evento.nome}}</ion-card-subtitle>
+        </ion-card-header>
+    
+        <ion-card-content>
+          <img [src]="evento.img" /><br />
+          <p class="ion-text-justify" [innerHTML]="evento.descricao_max">
+          </p>
+          <p><strong>Local:</strong> {{evento.local}}</p>
+          <p><strong>Horário:</strong> {{evento.horario}}</p>
+        </ion-card-content>
+      </ion-card>
+
+</ion-content>

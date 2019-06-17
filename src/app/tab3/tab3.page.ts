@@ -42,15 +42,13 @@ export class Tab3Page implements OnInit {
     {
       curso: "Desenvolvimento de Sistemas",
       turmas: [
-        1,2
+        1, 2
       ]
     }]
-  },
-
-  ];
+  }];
 
 
-  public cursos(cursos,position) {
+  public cursos(cursos, position) {
     this.enviaDados.setDados('cursos', cursos);
     this.enviaDados.setDados('positionCurso', position);
     this.rota.navigate(['/cursos']);
